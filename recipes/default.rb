@@ -2,7 +2,7 @@
 # Cookbook Name:: aws-sj
 # Recipe:: default
 #
-# Copyright 2017, YOUR_COMPANY_NAME
+# Copyright 2017, ScienceJet
 #
 # All rights reserved - Do Not Redistribute
 #

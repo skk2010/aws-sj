@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # aws-sj Cookbook
 
 TODO: Enter the cookbook description here.
@@ -78,3 +79,6 @@ e.g.
 
 Authors: TODO: List authors
 
+=======
+# aws-sj
+>>>>>>> 051c9b7bf8a768846464bd306b2f5887299277b2
