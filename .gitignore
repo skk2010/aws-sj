@@ -7,6 +7,7 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+<<<<<<< HEAD
 
 # =========================
 # Operating System Files
@@ -54,3 +55,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+=======
+>>>>>>> eed50352479e60ac372cb91f2decbe3d8ec19a0f
