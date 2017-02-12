@@ -14,8 +14,14 @@ service 'nginx' do
   action [ :enable, :start ]
 end
 
-cookbook_file "/usr/share/nginx/www/index.html" do
-  source "index.html"
-  mode "0644"
+gem_package 'bundler'
+if node['platform_family'] == 'debian'
+  link '/usr/local/bin/bundle' do
+    to '/usr/bin/bundle'
+  end
+else
+  link '/usr/local/bin/bundle' do
+    to '/usr/local/bin/bundler'
+  end
 end
 
